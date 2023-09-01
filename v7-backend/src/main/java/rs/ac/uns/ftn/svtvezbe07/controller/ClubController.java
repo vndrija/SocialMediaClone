@@ -8,7 +8,6 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.*;
-import rs.ac.uns.ftn.svtvezbe07.model.entity.Club;
 import rs.ac.uns.ftn.svtvezbe07.service.ClubService;
 
 import java.util.List;

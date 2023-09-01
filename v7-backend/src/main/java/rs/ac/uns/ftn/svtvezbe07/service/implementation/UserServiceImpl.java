@@ -4,8 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import rs.ac.uns.ftn.svtvezbe07.model.dto.UserDTO;
-import rs.ac.uns.ftn.svtvezbe07.model.entity.Roles;
-import rs.ac.uns.ftn.svtvezbe07.model.entity.User;
 import rs.ac.uns.ftn.svtvezbe07.repository.UserRepository;
 import rs.ac.uns.ftn.svtvezbe07.service.UserService;
 

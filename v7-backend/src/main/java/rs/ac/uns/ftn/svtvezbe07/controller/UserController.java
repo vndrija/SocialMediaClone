@@ -10,13 +10,11 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import rs.ac.uns.ftn.svtvezbe07.model.dto.JwtAuthenticationRequest;
 import rs.ac.uns.ftn.svtvezbe07.model.dto.UserDTO;
 import rs.ac.uns.ftn.svtvezbe07.model.dto.UserTokenState;
-import rs.ac.uns.ftn.svtvezbe07.model.entity.User;
 import rs.ac.uns.ftn.svtvezbe07.security.TokenUtils;
 import rs.ac.uns.ftn.svtvezbe07.service.UserService;
 

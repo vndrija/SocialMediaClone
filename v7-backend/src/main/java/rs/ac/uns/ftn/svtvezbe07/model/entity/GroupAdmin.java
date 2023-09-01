@@ -7,19 +7,17 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@NoArgsConstructor
 @Getter
 @Setter
-public class Club {
+@NoArgsConstructor
+@Table(name = "groupadmins")
+public class GroupAdmin {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    private Long id;
 
-    @Column(nullable = false, unique = true)
-    String name;
-
-    @Column(nullable = false)
-    String city;
-
+    @ManyToOne
+    @JoinColumn(name = "userId", nullable = false)
+    private User user;
 }
