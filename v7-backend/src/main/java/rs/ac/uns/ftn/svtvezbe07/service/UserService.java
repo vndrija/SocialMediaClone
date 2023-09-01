@@ -5,7 +5,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import rs.ac.uns.ftn.svtvezbe07.constructor.UserConstructor;
-import rs.ac.uns.ftn.svtvezbe07.model.dto.UserDTO;
 import rs.ac.uns.ftn.svtvezbe07.model.entity.Role;
 import rs.ac.uns.ftn.svtvezbe07.model.entity.User;
 import rs.ac.uns.ftn.svtvezbe07.repository.UserRepository;
