@@ -2,7 +2,6 @@ package rs.ac.uns.ftn.svtvezbe07.service.implementation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import rs.ac.uns.ftn.svtvezbe07.repository.ClubRepository;
 import rs.ac.uns.ftn.svtvezbe07.service.ClubService;
 
 import java.util.List;
