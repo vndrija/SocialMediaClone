@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Login</h1>
+  <form #loginForm="ngForm" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <input
+      type="email"
+      [formControlName]="'username'"
+      placeholder="Username"
+      required
+    />
+    <span *ngIf="!form.get('username')?.valid && form.get('username')?.touched">
+      Username not valid!
+    </span>
+    <input
+      type="password"
+      [formControlName]="'password'"
+      placeholder="Password"
+      required
+    />
+    <span *ngIf="!form.get('password')?.valid && form.get('password')?.touched">
+      Password not valid!
+    </span>
+    <button type="submit">Log In</button>
+  </form>
+</div>

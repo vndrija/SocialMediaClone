@@ -36,6 +36,7 @@ export class ApiService {
     };
 
     if (args) {
+      // @ts-ignore
       options['params'] = this.serialize(args);
     }
 
@@ -66,11 +67,14 @@ export class ApiService {
       headers: custemHeaders || this.headers,
     });
 
-    return this.http
-      .request(req)
-      .pipe(filter((response) => response instanceof HttpResponse))
-      .pipe(map((response: HttpResponse<any>) => response.body))
-      .pipe(catchError((error) => this.checkError(error)));
+    return (
+      this.http
+        .request(req)
+        .pipe(filter((response) => response instanceof HttpResponse))
+        // @ts-ignore
+        .pipe(map((response: HttpResponse<any>) => response.body))
+        .pipe(catchError((error) => this.checkError(error)))
+    );
   }
 
   private checkError(error: any): any {
