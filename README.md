@@ -2,12 +2,10 @@
 Project I did for my "Server Web technologies" and "Client web technologies" classes for my college
 
 # This is how project looks
-![Screenshot_20](https://github.com/vndrija/SocialMediaClone/assets/102137490/41aa694f-e6e8-4a93-8684-37572aad06ea)
-![Screenshot_21](https://github.com/vndrija/SocialMediaClone/assets/102137490/932da282-b317-4508-b7eb-1013f6054df5)
-![Screenshot_23](https://github.com/vndrija/SocialMediaClone/assets/102137490/a9c8f6ae-fdf9-4e31-9e19-b39b09faae0b)
-![Screenshot_22](https://github.com/vndrija/SocialMediaClone/assets/102137490/1b1dc0a1-f64e-40d8-a7e9-bca104774a5a)
-![Screenshot_24](https://github.com/vndrija/SocialMediaClone/assets/102137490/2d9c50e1-14ce-4e70-9b60
-![Screenshot_25](https://github.com/vndrija/SocialMediaClone/assets/102137490/d4687d77-647a-4853-9fbe-ef1ab7376120)
--8bf8320
-![Screenshot_26](https://github.com/vndrija/SocialMediaClone/assets/102137490/38ef4d78-e5da-4247-be9b-97412d4bf41c)
-fa2ec)
+![Screenshot_20](https://github.com/vndrija/SocialMediaClone/assets/102137490/00d7277c-81fd-4fe6-abfe-07d815d124f6)
+![Screenshot_21](https://github.com/vndrija/SocialMediaClone/assets/102137490/8f675457-4d23-45b7-a814-f42988c339d0)
+![Screenshot_23](https://github.com/vndrija/SocialMediaClone/assets/102137490/5660ff28-9a29-4100-ad40-8f0ed7e60f34)
+![Screenshot_22](https://github.com/vndrija/SocialMediaClone/assets/102137490/c4f547b1-be4b-4006-85d5-6480e9b12c8d)
+![Screenshot_24](https://github.com/vndrija/SocialMediaClone/assets/102137490/223c9dd2-4949-4ab7-afc4-dacd55649a6b)
+![Screenshot_25](https://github.com/vndrija/SocialMediaClone/assets/102137490/ce969568-0b90-4f7f-b29c-137507cc44a4)
+![Screenshot_26](https://github.com/vndrija/SocialMediaClone/assets/102137490/7c297333-a9dd-4697-acb1-f5fc9808a49d)
