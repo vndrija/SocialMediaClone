@@ -1,5 +1,5 @@
 # Social Media Clone
-Project I did for my "Server Web technologies" and "Client web technologies" classes for my college
+Project I did for my "Server Web technologies" and "Client web technologies" classes for my college (fourth semestar)
 
 # This is how project looks
 ![Screenshot_20](https://github.com/vndrija/SocialMediaClone/assets/102137490/00d7277c-81fd-4fe6-abfe-07d815d124f6)
