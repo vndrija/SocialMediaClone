@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "kvt:build:production"
+              "buildTarget": "kvt:build:production"
             },
             "development": {
-              "browserTarget": "kvt:build:development"
+              "buildTarget": "kvt:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "kvt:build"
+            "buildTarget": "kvt:build"
           }
         },
         "test": {
